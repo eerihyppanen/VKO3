@@ -19,7 +19,7 @@ public class Zoo {
     }
 
     public void listAnimals()   {
-        System.out.println( zooName + " pitää sisällään seraavat eläimet:");
+        System.out.println( zooName + " pitää sisällään seuraavat eläimet:");
         
         for (Animal animal : animals) {
             System.out.println(animal.getSpecies() + ": " + animal.getName() + ", " + animal.getAge() + " vuotta" );
